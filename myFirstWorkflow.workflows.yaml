@@ -12,6 +12,6 @@
         search: ${currentTime.body.dayOfTheWeek}
     result: wikiResult
 - returnResult:
-    return: ${currentTime}
+    return: ${wikiResult.body[1]}
     
     

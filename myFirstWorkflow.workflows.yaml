@@ -12,4 +12,6 @@
         search: ${currentTime.body.dayOfTheWeek}
     result: wikiResult
 - returnResult:
-    return: currentTime
+    return: ${currentTime}
+    
+    
